@@ -1,0 +1,16 @@
+.env
+vendor/
+node_modules/
+*.tsbuildinfo
+
+# Local archives, database exports, uploads and runtime credentials
+/arhives/
+/api/mrdiet.sql
+/api/uploads/
+/api/config/config.php
+/api/config/config.production.php
+/frontend/.env
+
+# Runtime logs
+logs/
+*.log

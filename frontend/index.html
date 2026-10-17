@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>MRDiet | Premium AI Diet Plans</title>
+  <!-- Dynamic Config with Cache Busting -->
+  <script>
+    (function () {
+      var script = document.createElement('script');
+      // Always load from site root, regardless of current page path (e.g. /admin/auth)
+      script.src = window.location.origin + '/config.js?v=' + Date.now();
+      script.onerror = function() {
+        console.warn('[MRDiet] config.js not found - using defaults from window.APP_CONFIG fallback');
+      };
+      document.head.appendChild(script);
+    })();
+  </script>
+  <meta name="description"
+    content="Transform your health with MRDiet. Personalized, science-backed AI diet plans for PCOS, Thyroid, and Weight Loss." />
+  <meta name="keywords" content="diet plan, AI nutrition, personalized diet, luxury wellness, health transformation, MRDiet" />
+  <link rel="canonical" href="https://mrdietplan.in" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <meta property="og:title" content="MRDiet | Premium AI-Powered Diet Plans" />
+  <meta property="og:description"
+    content="Experience the future of nutrition with MRDiet. Luxury AI-powered diet plans tailored to your unique health goals." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@mrdiet" />
+  <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

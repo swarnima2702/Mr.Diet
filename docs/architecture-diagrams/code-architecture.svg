@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1480" viewBox="0 0 2400 1480" role="img" aria-label="Mr Diet Plan code architecture">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <marker id="logicalArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#dc2626"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#f8fafc"/>
+  <style>
+    text { font-family: "Segoe UI", Arial, sans-serif; fill: #0f172a; }
+    .title { font-size: 44px; font-weight: 700; }
+    .subtitle { font-size: 22px; fill: #475569; }
+    .panel-title { font-size: 28px; font-weight: 700; }
+    .node-title { font-size: 25px; font-weight: 700; }
+    .node-line { font-size: 20px; fill: #475569; }
+    .edge-label { font-size: 18px; font-weight: 600; fill: #475569; }
+    .entity-title { font-size: 26px; font-weight: 700; }
+    .entity-field { font-size: 19px; }
+    .entity-key { font-size: 17px; font-weight: 700; fill: #475569; }
+  </style>
+<text class="title" x="1200" y="62" text-anchor="middle">Mr Diet Plan — Code Architecture</text>
+  <text class="subtitle" x="1200" y="98" text-anchor="middle">React + PHP + MySQL with admin-selectable OpenAI and Gemini providers</text>
+<rect x="50" y="145" width="680" height="1260" rx="28" fill="#dbeafe" fill-opacity="0.45" stroke="#2563eb" stroke-width="3"/>
+  <text class="panel-title" x="78" y="189">Frontend — React, Vite, Tailwind</text>
+<rect x="805" y="145" width="760" height="1260" rx="28" fill="#dcfce7" fill-opacity="0.45" stroke="#16a34a" stroke-width="3"/>
+  <text class="panel-title" x="833" y="189">Backend — PHP Controllers &amp; Services</text>
+<rect x="1640" y="145" width="710" height="1260" rx="28" fill="#fef3c7" fill-opacity="0.45" stroke="#d97706" stroke-width="3"/>
+  <text class="panel-title" x="1668" y="189">Data &amp; External Services</text>
+<polyline points="355,282 405,282" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  
+<polyline points="540,335 540,390 235,390 235,440" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  
+<polyline points="540,335 540,440" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  
+<polyline points="235,590 235,700" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  
+<polyline points="545,590 545,700" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  
+<polyline points="390,855 390,980" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  
+<polyline points="620,1052 760,1052 760,285 990,285" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="702.4" y="658" width="135.20000000000002" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="770" y="680" text-anchor="middle">/api requests</text>
+<polyline points="1185,340 1185,395 1005,395 1005,445" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  
+<polyline points="1185,340 1185,395 1365,395 1365,445" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  
+<polyline points="1005,635 1005,760" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  
+<polyline points="1160,827 1210,827" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="1130" y="795" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1185" y="817" text-anchor="middle">AI call</text>
+<polyline points="1005,635 1005,1000 1185,1000 1185,1060" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  
+<polyline points="1365,635 1365,1000 1185,1000 1185,1060" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  
+<polyline points="1360,1127 1595,1127 1595,307 1840,307" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="1540" y="668" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1595" y="690" text-anchor="middle">SQL / PDO</text>
+<polyline points="1520,827 1600,827 1600,600 1710,600" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="1560" y="681.5" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1615" y="703.5" text-anchor="middle">Current</text>
+<polyline points="1520,827 1600,827 1600,700 2150,700 2150,665" fill="none" stroke="#dc2626" stroke-width="4" stroke-dasharray="14 10" marker-end="url(#logicalArrow)" />
+  <rect x="1866.8" y="703" width="166.4" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1950" y="725" text-anchor="middle">Admin-selectable</text>
+<polyline points="1160,540 1580,540 1580,847 1710,847" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="1380" y="661.5" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1435" y="683.5" text-anchor="middle">OAuth</text>
+<polyline points="1160,570 1570,570 1570,847 2020,847" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="1775" y="803" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1830" y="825" text-anchor="middle">Payments</text>
+<polyline points="1160,600 1550,600 1550,1097 1710,1097" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="1520" y="968" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1575" y="990" text-anchor="middle">Push</text>
+<polyline points="2150,1035 2150,975 1970,975 1970,1097" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="2005" y="1034" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="2060" y="1056" text-anchor="middle">Triggers</text>
+<g filter="url(#shadow)">
+    <rect x="105" y="230" width="250" height="105" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="230" y="269" text-anchor="middle">Browser</text>
+    <text class="node-line" x="230" y="303" text-anchor="middle">User / Admin</text>
+  </g>
+<g filter="url(#shadow)">
+    <rect x="405" y="230" width="270" height="105" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="540" y="269" text-anchor="middle">App.tsx</text>
+    <text class="node-line" x="540" y="303" text-anchor="middle">Routes &amp; providers</text>
+  </g>
+<g filter="url(#shadow)">
+    <rect x="100" y="440" width="270" height="150" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="235" y="479" text-anchor="middle">User pages</text>
+    <text class="node-line" x="235" y="513" text-anchor="middle">Auth &amp; profiles</text>
+<text class="node-line" x="235" y="541" text-anchor="middle">Dashboard &amp; diet</text>
+<text class="node-line" x="235" y="569" text-anchor="middle">Checkout &amp; tracking</text>
+  </g>
+<g filter="url(#shadow)">
+    <rect x="410" y="440" width="270" height="150" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="545" y="479" text-anchor="middle">Admin pages</text>
+    <text class="node-line" x="545" y="513" text-anchor="middle">Users &amp; analytics</text>
+<text class="node-line" x="545" y="541" text-anchor="middle">Settings &amp; coupons</text>
+<text class="node-line" x="545" y="569" text-anchor="middle">Transactions</text>
+  </g>
+<g filter="url(#shadow)">
+    <rect x="100" y="700" width="580" height="155" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="390" y="739" text-anchor="middle">Feature modules &amp; hooks</text>
+    <text class="node-line" x="390" y="773" text-anchor="middle">Diet dashboard • Period tracker</text>
+<text class="node-line" x="390" y="801" text-anchor="middle">Notifications • Check-ins</text>
+  </g>
+<g filter="url(#shadow)">
+    <rect x="160" y="980" width="460" height="145" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="390" y="1019" text-anchor="middle">src/lib/api.ts</text>
+    <text class="node-line" x="390" y="1053" text-anchor="middle">Central API client</text>
+<text class="node-line" x="390" y="1081" text-anchor="middle">Cache-busting &amp; JSON requests</text>
+  </g>
+<g filter="url(#shadow)">
+    <rect x="990" y="230" width="390" height="110" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="1185" y="269" text-anchor="middle">Vite /api proxy</text>
+    <text class="node-line" x="1185" y="303" text-anchor="middle">Development routing</text>
+  </g>
+<g filter="url(#shadow)">
+    <rect x="850" y="445" width="310" height="190" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="1005" y="484" text-anchor="middle">User controllers</text>
+    <text class="node-line" x="1005" y="518" text-anchor="middle">auth • profiles</text>
+<text class="node-line" x="1005" y="546" text-anchor="middle">subscriptions • payment</text>
+<text class="node-line" x="1005" y="574" text-anchor="middle">diet • timers • period</text>
+  </g>
+<g filter="url(#shadow)">
+    <rect x="1210" y="445" width="310" height="190" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="1365" y="484" text-anchor="middle">Admin controllers</text>
+    <text class="node-line" x="1365" y="518" text-anchor="middle">users • settings</text>
+<text class="node-line" x="1365" y="546" text-anchor="middle">analytics • coupons</text>
+<text class="node-line" x="1365" y="574" text-anchor="middle">transactions • CMS</text>
+  </g>
+<g filter="url(#shadow)">
+    <rect x="850" y="760" width="310" height="135" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="1005" y="799" text-anchor="middle">generate_plan.php</text>
+    <text class="node-line" x="1005" y="833" text-anchor="middle">Plan generation</text>
+<text class="node-line" x="1005" y="861" text-anchor="middle">Meal substitution</text>
+  </g>
+<g filter="url(#shadow)">
+    <rect x="1210" y="760" width="310" height="135" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="1365" y="799" text-anchor="middle">AI service</text>
+    <text class="node-line" x="1365" y="833" text-anchor="middle">Prompt building</text>
+<text class="node-line" x="1365" y="861" text-anchor="middle">Response parsing</text>
+  </g>
+<g filter="url(#shadow)">
+    <rect x="1010" y="1060" width="350" height="135" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="1185" y="1099" text-anchor="middle">config/db.php</text>
+    <text class="node-line" x="1185" y="1133" text-anchor="middle">PDO bootstrap</text>
+<text class="node-line" x="1185" y="1161" text-anchor="middle">Shared database access</text>
+  </g>
+<g filter="url(#shadow)">
+    <rect x="1840" y="235" width="320" height="145" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="2000" y="274" text-anchor="middle">MySQL</text>
+    <text class="node-line" x="2000" y="308" text-anchor="middle">mrdietweb</text>
+<text class="node-line" x="2000" y="336" text-anchor="middle">18 live tables</text>
+  </g>
+<g filter="url(#shadow)">
+    <rect x="1710" y="535" width="260" height="130" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="1840" y="574" text-anchor="middle">OpenAI API</text>
+    <text class="node-line" x="1840" y="608" text-anchor="middle">Current AI provider</text>
+  </g>
+<g filter="url(#shadow)">
+    <rect x="2020" y="535" width="260" height="130" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="2150" y="574" text-anchor="middle">Gemini API</text>
+    <text class="node-line" x="2150" y="608" text-anchor="middle">Admin-selectable</text>
+  </g>
+<g filter="url(#shadow)">
+    <rect x="1710" y="785" width="260" height="125" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="1840" y="824" text-anchor="middle">Google OAuth</text>
+    <text class="node-line" x="1840" y="858" text-anchor="middle">Authentication</text>
+  </g>
+<g filter="url(#shadow)">
+    <rect x="2020" y="785" width="260" height="125" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="2150" y="824" text-anchor="middle">Payments</text>
+    <text class="node-line" x="2150" y="858" text-anchor="middle">Cashfree / Razorpay</text>
+  </g>
+<g filter="url(#shadow)">
+    <rect x="1710" y="1035" width="260" height="125" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="1840" y="1074" text-anchor="middle">OneSignal</text>
+    <text class="node-line" x="1840" y="1108" text-anchor="middle">Push notifications</text>
+  </g>
+<g filter="url(#shadow)">
+    <rect x="2020" y="1035" width="260" height="125" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <text class="node-title" x="2150" y="1074" text-anchor="middle">Cron jobs</text>
+    <text class="node-line" x="2150" y="1108" text-anchor="middle">Scheduled reminders</text>
+  </g>
+</svg>

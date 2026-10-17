@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="2670" viewBox="0 0 3000 2670" role="img" aria-label="Mr Diet Plan database ER diagram">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <marker id="logicalArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#dc2626"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#f8fafc"/>
+  <style>
+    text { font-family: "Segoe UI", Arial, sans-serif; fill: #0f172a; }
+    .title { font-size: 44px; font-weight: 700; }
+    .subtitle { font-size: 22px; fill: #475569; }
+    .panel-title { font-size: 28px; font-weight: 700; }
+    .node-title { font-size: 25px; font-weight: 700; }
+    .node-line { font-size: 20px; fill: #475569; }
+    .edge-label { font-size: 18px; font-weight: 600; fill: #475569; }
+    .entity-title { font-size: 26px; font-weight: 700; }
+    .entity-field { font-size: 19px; }
+    .entity-key { font-size: 17px; font-weight: 700; fill: #475569; }
+  </style>
+<text class="title" x="1500" y="62" text-anchor="middle">Mr Diet Plan — Database ER Diagram</text>
+  <text class="subtitle" x="1500" y="98" text-anchor="middle">Live local schema: mrdietweb • solid = enforced FK • dashed red = logical relation without FK</text>
+<polyline points="530,288 900,288 900,300 1160,295" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="825" y="258" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="880" y="280" text-anchor="middle">1 → 0..1</text>
+<polyline points="1030,274.5 1160,295" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="1040" y="388" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1095" y="410" text-anchor="middle">1 → 0..*</text>
+<polyline points="1730,295 1850,274.5" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="1735" y="278" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1790" y="300" text-anchor="middle">1 → 0..*</text>
+<polyline points="1730,295 2380,330 2380,274.5 2440,274.5" fill="none" stroke="#dc2626" stroke-width="4" stroke-dasharray="14 10" marker-end="url(#logicalArrow)" />
+  <rect x="2296.8" y="278" width="166.4" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="2380" y="300" text-anchor="middle">logical 1 → 0..*</text>
+<polyline points="1450,150 1450,120 1780,120 1780,410 1730,410" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="1707.4" y="83" width="135.20000000000002" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1775" y="105" text-anchor="middle">self referral</text>
+<polyline points="1445,440 1405,650" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="1370" y="513" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1425" y="535" text-anchor="middle">1 → 0..1</text>
+<polyline points="1080,808.5 870,798" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="920" y="771.25" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="975" y="793.25" text-anchor="middle">1 → 0..1</text>
+<polyline points="1080,808.5 760,850 760,1260 620,1275" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="705" y="1078" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="760" y="1100" text-anchor="middle">1 → 0..*</text>
+<polyline points="1160,410 800,410 800,1040 335,1040 335,1130" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="592.4" y="998" width="135.20000000000002" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="660" y="1020" text-anchor="middle">User 1 → logs</text>
+<polyline points="1405,967 1365,1170" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="1301.8" y="1036.5" width="166.4" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1385" y="1058.5" text-anchor="middle">Profile 1 → 0..*</text>
+<polyline points="1550,470 1780,470 1780,1040 1520,1040 1365,1170" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="1692.4" y="828" width="135.20000000000002" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1760" y="850" text-anchor="middle">User 1 → 0..*</text>
+<polyline points="1690,1328.5 1830,1255" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="1705" y="1259.75" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1760" y="1281.75" text-anchor="middle">1 → 0..*</text>
+<polyline points="1730,350 1810,350 1810,1270 1830,1255" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="1706" y="978" width="208" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1810" y="1000" text-anchor="middle">User / referred user</text>
+<polyline points="1250,1487 1250,1660 970,1660 970,1740" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="1025" y="1623" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1080" y="1645" text-anchor="middle">1 → 0..*</text>
+<polyline points="1480,1487 1480,1660 1580,1660 1580,1740" fill="none" stroke="#64748b" stroke-width="4"  marker-end="url(#arrow)" />
+  <rect x="1515" y="1623" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1570" y="1645" text-anchor="middle">1 → 0..*</text>
+<polyline points="1120,1487 1120,2130 680,2130 680,2240" fill="none" stroke="#dc2626" stroke-width="4" stroke-dasharray="14 10" marker-end="url(#logicalArrow)" />
+  <rect x="745" y="2088" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="800" y="2110" text-anchor="middle">logical</text>
+<polyline points="1360,1487 1360,2240" fill="none" stroke="#dc2626" stroke-width="4" stroke-dasharray="14 10" marker-end="url(#logicalArrow)" />
+  <rect x="1335" y="2088" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1390" y="2110" text-anchor="middle">logical</text>
+<polyline points="1600,1487 1600,2110 1860,2110 1860,2240" fill="none" stroke="#dc2626" stroke-width="4" stroke-dasharray="14 10" marker-end="url(#logicalArrow)" />
+  <rect x="1725" y="2068" width="110" height="31" rx="8" fill="#f8fafc" fill-opacity="0.94"/><text class="edge-label" x="1780" y="2090" text-anchor="middle">logical</text>
+<g filter="url(#shadow)">
+      <rect x="50" y="170" width="480" height="236" rx="16" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+      <path d="M 50 226 H 530" stroke="#2563eb" stroke-width="3"/>
+      <text class="entity-title" x="290" y="207" text-anchor="middle">NOTIFICATION_PREFERENCES</text>
+      <text class="entity-field" x="70" y="253">id : int</text><text class="entity-key" x="512" y="253" text-anchor="end">PK</text>
+<text class="entity-field" x="70" y="280">user_id : int</text><text class="entity-key" x="512" y="280" text-anchor="end">FK,UK</text>
+<text class="entity-field" x="70" y="307">onesignal_player_id : varchar</text>
+<text class="entity-field" x="70" y="334">water_reminder_enabled : bool</text>
+<text class="entity-field" x="70" y="361">meal_reminder_enabled : bool</text>
+<text class="entity-field" x="70" y="388">period_reminder_enabled : bool</text>
+    </g>
+<g filter="url(#shadow)">
+      <rect x="600" y="170" width="430" height="209" rx="16" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+      <path d="M 600 226 H 1030" stroke="#2563eb" stroke-width="3"/>
+      <text class="entity-title" x="815" y="207" text-anchor="middle">NOTIFICATION_LOGS</text>
+      <text class="entity-field" x="620" y="253">id : int</text><text class="entity-key" x="1012" y="253" text-anchor="end">PK</text>
+<text class="entity-field" x="620" y="280">user_id : int</text><text class="entity-key" x="1012" y="280" text-anchor="end">FK</text>
+<text class="entity-field" x="620" y="307">type : varchar</text>
+<text class="entity-field" x="620" y="334">sent_date : date</text>
+<text class="entity-field" x="620" y="361">sent_time : time</text>
+    </g>
+<g filter="url(#shadow)">
+      <rect x="1160" y="150" width="570" height="290" rx="16" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+      <path d="M 1160 206 H 1730" stroke="#2563eb" stroke-width="3"/>
+      <text class="entity-title" x="1445" y="187" text-anchor="middle">USERS</text>
+      <text class="entity-field" x="1180" y="233">id : int</text><text class="entity-key" x="1712" y="233" text-anchor="end">PK</text>
+<text class="entity-field" x="1180" y="260">email : varchar</text><text class="entity-key" x="1712" y="260" text-anchor="end">UK</text>
+<text class="entity-field" x="1180" y="287">password : varchar</text>
+<text class="entity-field" x="1180" y="314">name : varchar</text>
+<text class="entity-field" x="1180" y="341">google_id : varchar</text><text class="entity-key" x="1712" y="341" text-anchor="end">UK</text>
+<text class="entity-field" x="1180" y="368">is_admin : bool</text>
+<text class="entity-field" x="1180" y="395">referral_code : varchar</text><text class="entity-key" x="1712" y="395" text-anchor="end">UK</text>
+<text class="entity-field" x="1180" y="422">referred_by : int</text><text class="entity-key" x="1712" y="422" text-anchor="end">FK</text>
+    </g>
+<g filter="url(#shadow)">
+      <rect x="1850" y="170" width="470" height="209" rx="16" fill="#ffe4e6" stroke="#e11d48" stroke-width="3"/>
+      <path d="M 1850 226 H 2320" stroke="#e11d48" stroke-width="3"/>
+      <text class="entity-title" x="2085" y="207" text-anchor="middle">WITHDRAWALS</text>
+      <text class="entity-field" x="1870" y="253">id : int</text><text class="entity-key" x="2302" y="253" text-anchor="end">PK</text>
+<text class="entity-field" x="1870" y="280">user_id : int</text><text class="entity-key" x="2302" y="280" text-anchor="end">FK</text>
+<text class="entity-field" x="1870" y="307">amount : decimal</text>
+<text class="entity-field" x="1870" y="334">status : enum</text>
+<text class="entity-field" x="1870" y="361">transaction_id : varchar</text>
+    </g>
+<g filter="url(#shadow)">
+      <rect x="2440" y="170" width="500" height="209" rx="16" fill="#ffe4e6" stroke="#e11d48" stroke-width="3"/>
+      <path d="M 2440 226 H 2940" stroke="#e11d48" stroke-width="3"/>
+      <text class="entity-title" x="2690" y="207" text-anchor="middle">WITHDRAWAL_REQUESTS</text>
+      <text class="entity-field" x="2460" y="253">id : int</text><text class="entity-key" x="2922" y="253" text-anchor="end">PK</text>
+<text class="entity-field" x="2460" y="280">user_id : int</text>
+<text class="entity-field" x="2460" y="307">amount : decimal</text>
+<text class="entity-field" x="2460" y="334">status : enum</text>
+<text class="entity-field" x="2460" y="361">transaction_id : varchar</text>
+    </g>
+<g filter="url(#shadow)">
+      <rect x="370" y="680" width="500" height="236" rx="16" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+      <path d="M 370 736 H 870" stroke="#2563eb" stroke-width="3"/>
+      <text class="entity-title" x="620" y="717" text-anchor="middle">HEALTH_METRICS</text>
+      <text class="entity-field" x="390" y="763">id : int</text><text class="entity-key" x="852" y="763" text-anchor="end">PK</text>
+<text class="entity-field" x="390" y="790">profile_id : int</text><text class="entity-key" x="852" y="790" text-anchor="end">FK,UK</text>
+<text class="entity-field" x="390" y="817">bmi : decimal</text>
+<text class="entity-field" x="390" y="844">target_calories : int</text>
+<text class="entity-field" x="390" y="871">calculated_calories : int</text>
+<text class="entity-field" x="390" y="898">updated_by_admin : bool</text>
+    </g>
+<g filter="url(#shadow)">
+      <rect x="1080" y="650" width="650" height="317" rx="16" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+      <path d="M 1080 706 H 1730" stroke="#2563eb" stroke-width="3"/>
+      <text class="entity-title" x="1405" y="687" text-anchor="middle">PROFILES</text>
+      <text class="entity-field" x="1100" y="733">id : int</text><text class="entity-key" x="1712" y="733" text-anchor="end">PK</text>
+<text class="entity-field" x="1100" y="760">user_id : int</text><text class="entity-key" x="1712" y="760" text-anchor="end">FK,UK</text>
+<text class="entity-field" x="1100" y="787">name : varchar</text>
+<text class="entity-field" x="1100" y="814">age / gender : value</text>
+<text class="entity-field" x="1100" y="841">height / weight / bmi : decimal</text>
+<text class="entity-field" x="1100" y="868">goal / activity_level : varchar</text>
+<text class="entity-field" x="1100" y="895">extended_data : longtext</text>
+<text class="entity-field" x="1100" y="922">cycle_length / period_duration : int</text>
+<text class="entity-field" x="1100" y="949">last_period_start : date</text>
+    </g>
+<g filter="url(#shadow)">
+      <rect x="2440" y="650" width="500" height="209" rx="16" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+      <path d="M 2440 706 H 2940" stroke="#d97706" stroke-width="3"/>
+      <text class="entity-title" x="2690" y="687" text-anchor="middle">SETTINGS</text>
+      <text class="entity-field" x="2460" y="733">id : int</text><text class="entity-key" x="2922" y="733" text-anchor="end">PK</text>
+<text class="entity-field" x="2460" y="760">setting_key : varchar</text><text class="entity-key" x="2922" y="760" text-anchor="end">UK</text>
+<text class="entity-field" x="2460" y="787">setting_value : text</text>
+<text class="entity-field" x="2460" y="814">created_at : timestamp</text>
+<text class="entity-field" x="2460" y="841">updated_at : timestamp</text>
+    </g>
+<g filter="url(#shadow)">
+      <rect x="50" y="1130" width="570" height="290" rx="16" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+      <path d="M 50 1186 H 620" stroke="#2563eb" stroke-width="3"/>
+      <text class="entity-title" x="335" y="1167" text-anchor="middle">PERIOD_LOGS</text>
+      <text class="entity-field" x="70" y="1213">id : int</text><text class="entity-key" x="602" y="1213" text-anchor="end">PK</text>
+<text class="entity-field" x="70" y="1240">user_id : int</text><text class="entity-key" x="602" y="1240" text-anchor="end">FK</text>
+<text class="entity-field" x="70" y="1267">profile_id : int</text><text class="entity-key" x="602" y="1267" text-anchor="end">FK</text>
+<text class="entity-field" x="70" y="1294">log_date : date</text>
+<text class="entity-field" x="70" y="1321">is_period_day : bool</text>
+<text class="entity-field" x="70" y="1348">flow_level : varchar</text>
+<text class="entity-field" x="70" y="1375">symptoms : longtext</text>
+<text class="entity-field" x="70" y="1402">mood / notes : text</text>
+    </g>
+<g filter="url(#shadow)">
+      <rect x="1040" y="1170" width="650" height="317" rx="16" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+      <path d="M 1040 1226 H 1690" stroke="#16a34a" stroke-width="3"/>
+      <text class="entity-title" x="1365" y="1207" text-anchor="middle">SUBSCRIPTIONS</text>
+      <text class="entity-field" x="1060" y="1253">id : int</text><text class="entity-key" x="1672" y="1253" text-anchor="end">PK</text>
+<text class="entity-field" x="1060" y="1280">user_id : int</text><text class="entity-key" x="1672" y="1280" text-anchor="end">FK</text>
+<text class="entity-field" x="1060" y="1307">profile_id : int</text><text class="entity-key" x="1672" y="1307" text-anchor="end">FK</text>
+<text class="entity-field" x="1060" y="1334">plan_type / plan_days : value</text>
+<text class="entity-field" x="1060" y="1361">start_date / end_date : date</text>
+<text class="entity-field" x="1060" y="1388">amount : decimal</text>
+<text class="entity-field" x="1060" y="1415">payment_method / status : varchar</text>
+<text class="entity-field" x="1060" y="1442">transaction_id : varchar</text>
+<text class="entity-field" x="1060" y="1469">status : enum</text>
+    </g>
+<g filter="url(#shadow)">
+      <rect x="1830" y="1110" width="580" height="290" rx="16" fill="#ffe4e6" stroke="#e11d48" stroke-width="3"/>
+      <path d="M 1830 1166 H 2410" stroke="#e11d48" stroke-width="3"/>
+      <text class="entity-title" x="2120" y="1147" text-anchor="middle">REFERRAL_EARNINGS</text>
+      <text class="entity-field" x="1850" y="1193">id : int</text><text class="entity-key" x="2392" y="1193" text-anchor="end">PK</text>
+<text class="entity-field" x="1850" y="1220">user_id : int</text><text class="entity-key" x="2392" y="1220" text-anchor="end">FK</text>
+<text class="entity-field" x="1850" y="1247">referred_user_id : int</text><text class="entity-key" x="2392" y="1247" text-anchor="end">FK</text>
+<text class="entity-field" x="1850" y="1274">subscription_id : int</text><text class="entity-key" x="2392" y="1274" text-anchor="end">FK</text>
+<text class="entity-field" x="1850" y="1301">amount : decimal</text>
+<text class="entity-field" x="1850" y="1328">status : enum</text>
+<text class="entity-field" x="1850" y="1355">description : text</text>
+<text class="entity-field" x="1850" y="1382">is_admin_adjustment : bool</text>
+    </g>
+<g filter="url(#shadow)">
+      <rect x="2450" y="1110" width="480" height="236" rx="16" fill="#ffe4e6" stroke="#e11d48" stroke-width="3"/>
+      <path d="M 2450 1166 H 2930" stroke="#e11d48" stroke-width="3"/>
+      <text class="entity-title" x="2690" y="1147" text-anchor="middle">COUPONS</text>
+      <text class="entity-field" x="2470" y="1193">id : int</text><text class="entity-key" x="2912" y="1193" text-anchor="end">PK</text>
+<text class="entity-field" x="2470" y="1220">code : varchar</text><text class="entity-key" x="2912" y="1220" text-anchor="end">UK</text>
+<text class="entity-field" x="2470" y="1247">discount_type : enum</text>
+<text class="entity-field" x="2470" y="1274">discount_value : decimal</text>
+<text class="entity-field" x="2470" y="1301">used_count : int</text>
+<text class="entity-field" x="2470" y="1328">is_active : bool</text>
+    </g>
+<g filter="url(#shadow)">
+      <rect x="690" y="1740" width="560" height="263" rx="16" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+      <path d="M 690 1796 H 1250" stroke="#16a34a" stroke-width="3"/>
+      <text class="entity-title" x="970" y="1777" text-anchor="middle">DAILY_DIET_PLANS</text>
+      <text class="entity-field" x="710" y="1823">id : int</text><text class="entity-key" x="1232" y="1823" text-anchor="end">PK</text>
+<text class="entity-field" x="710" y="1850">subscription_id : int</text><text class="entity-key" x="1232" y="1850" text-anchor="end">FK</text>
+<text class="entity-field" x="710" y="1877">day_number : int</text>
+<text class="entity-field" x="710" y="1904">plan_date : date</text>
+<text class="entity-field" x="710" y="1931">meal_json : longtext</text>
+<text class="entity-field" x="710" y="1958">is_unlocked : bool</text>
+<text class="entity-field" x="710" y="1985">meal_changes_count : int</text>
+    </g>
+<g filter="url(#shadow)">
+      <rect x="1320" y="1740" width="520" height="236" rx="16" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+      <path d="M 1320 1796 H 1840" stroke="#16a34a" stroke-width="3"/>
+      <text class="entity-title" x="1580" y="1777" text-anchor="middle">DAILY_LOGS</text>
+      <text class="entity-field" x="1340" y="1823">id : int</text><text class="entity-key" x="1822" y="1823" text-anchor="end">PK</text>
+<text class="entity-field" x="1340" y="1850">subscription_id : int</text><text class="entity-key" x="1822" y="1850" text-anchor="end">FK</text>
+<text class="entity-field" x="1340" y="1877">day_number : int</text>
+<text class="entity-field" x="1340" y="1904">weight_log : decimal</text>
+<text class="entity-field" x="1340" y="1931">mood_log : varchar</text>
+<text class="entity-field" x="1340" y="1958">notes : text</text>
+    </g>
+<g filter="url(#shadow)">
+      <rect x="2450" y="1660" width="480" height="182" rx="16" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+      <path d="M 2450 1716 H 2930" stroke="#d97706" stroke-width="3"/>
+      <text class="entity-title" x="2690" y="1697" text-anchor="middle">PAGES</text>
+      <text class="entity-field" x="2470" y="1743">id : int</text><text class="entity-key" x="2912" y="1743" text-anchor="end">PK</text>
+<text class="entity-field" x="2470" y="1770">slug : varchar</text><text class="entity-key" x="2912" y="1770" text-anchor="end">UK</text>
+<text class="entity-field" x="2470" y="1797">title : varchar</text>
+<text class="entity-field" x="2470" y="1824">content : text</text>
+    </g>
+<g filter="url(#shadow)">
+      <rect x="420" y="2240" width="520" height="182" rx="16" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+      <path d="M 420 2296 H 940" stroke="#16a34a" stroke-width="3"/>
+      <text class="entity-title" x="680" y="2277" text-anchor="middle">GENERATION_TIMERS</text>
+      <text class="entity-field" x="440" y="2323">id : int</text><text class="entity-key" x="922" y="2323" text-anchor="end">PK</text>
+<text class="entity-field" x="440" y="2350">subscription_id : int</text>
+<text class="entity-field" x="440" y="2377">day_number : int</text>
+<text class="entity-field" x="440" y="2404">unlock_at : datetime</text>
+    </g>
+<g filter="url(#shadow)">
+      <rect x="1050" y="2240" width="460" height="182" rx="16" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+      <path d="M 1050 2296 H 1510" stroke="#16a34a" stroke-width="3"/>
+      <text class="entity-title" x="1280" y="2277" text-anchor="middle">TIMERS</text>
+      <text class="entity-field" x="1070" y="2323">id : int</text><text class="entity-key" x="1492" y="2323" text-anchor="end">PK</text>
+<text class="entity-field" x="1070" y="2350">subscription_id : int</text>
+<text class="entity-field" x="1070" y="2377">day_number : int</text>
+<text class="entity-field" x="1070" y="2404">unlock_at : bigint</text>
+    </g>
+<g filter="url(#shadow)">
+      <rect x="1620" y="2240" width="480" height="236" rx="16" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+      <path d="M 1620 2296 H 2100" stroke="#16a34a" stroke-width="3"/>
+      <text class="entity-title" x="1860" y="2277" text-anchor="middle">CHECKINS</text>
+      <text class="entity-field" x="1640" y="2323">id : int</text><text class="entity-key" x="2082" y="2323" text-anchor="end">PK</text>
+<text class="entity-field" x="1640" y="2350">subscription_id : int</text>
+<text class="entity-field" x="1640" y="2377">day_number : int</text>
+<text class="entity-field" x="1640" y="2404">weight : decimal</text>
+<text class="entity-field" x="1640" y="2431">mood : varchar</text>
+<text class="entity-field" x="1640" y="2458">notes : text</text>
+    </g>
+<g><line x1="2180" y1="2385" x2="2250" y2="2385" stroke="#64748b" stroke-width="4"/><text class="edge-label" x="2270" y="2392">Enforced foreign key</text><line x1="2180" y1="2445" x2="2250" y2="2445" stroke="#dc2626" stroke-width="4" stroke-dasharray="14 10"/><text class="edge-label" x="2270" y="2452">Logical ID relation; no database FK</text></g>
+</svg>

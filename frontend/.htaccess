@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /
+
+# Forward API requests to the api/controllers folder
+RewriteRule ^api/(.*)$ api/controllers/$1 [L]
+
+# SPA Fallback
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
